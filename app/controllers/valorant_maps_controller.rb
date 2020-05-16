@@ -1,0 +1,2 @@
+class ValorantMapsController < ApplicationController
+end
