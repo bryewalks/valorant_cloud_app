@@ -1,0 +1,1 @@
+json.array! @valorant_maps, partial: 'valorant_map', as: :valorant_map
