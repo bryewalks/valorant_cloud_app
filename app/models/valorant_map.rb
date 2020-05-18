@@ -1,4 +1,4 @@
 class ValorantMap < ApplicationRecord
-  has_many :characters
   has_many :locations
+  has_many :characters, through: :locations
 end
