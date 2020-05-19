@@ -30,6 +30,6 @@ class Api::LocationsController < ApplicationController
   def location_params
     params
       .require(:location)
-      .permit(:valorant_map_id, :character_id, :title, :x_axis, :y_axis, :angle)
+      .permit(:valorant_map_id, :character_id, :title, :x_axis, :y_axis, :angle, :location_type)
   end
 end
