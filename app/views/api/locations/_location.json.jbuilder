@@ -1,5 +1,6 @@
 json.id location.id
 json.title location.title
+json.location_type location.location_type
 json.x_axis location.x_axis
 json.y_axis location.y_axis
 json.angle location.angle
