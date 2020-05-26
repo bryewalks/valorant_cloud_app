@@ -19,9 +19,9 @@ class Api::LocationsController < ApplicationController
     render 'show.json.jbuilder'
   end
 
-  def delete
+  def destroy
     location = Location.find(params[:id])
-    location.destroy
+    location.delete
     render json: {message: "Successfully Removed Location"}
   end
 
